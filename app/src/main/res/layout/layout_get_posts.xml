@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <variable
+            name="posts"
+            type="com.hard.code.tech.myretrofit.models.Posts" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtUserId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@{Integer.toString((safeUnbox(posts.userId)))}" />
+
+        <TextView
+            android:id="@+id/txtPostTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@{posts.title}"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtPostBody"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@{posts.body}"
+            android:textStyle="italic" />
+    </LinearLayout>
+</layout>

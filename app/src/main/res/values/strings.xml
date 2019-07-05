@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">My Retrofit</string>
+    <string name="title_activity_start">StartActivity</string>
+
+    <!--make text input layout visible-->
+    <item name="visible" type="id" />
+    <item name="masked" type="id" />
+
+    <string name="sign_up">Sign Up</string>
+    <string name="login">Log in</string>
+
+    <string name="profile_name">Profile Name</string>
+    <string name="profile_email">Profile email</string>
+    <string name="edit_profile">Edit profile</string>
+    <string name="enter_email">Enter email</string>
+    <string name="enter_password">Enter password</string>
+    <string name="forgot_password">Forgot password</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="registration">Registration</string>
+    <string name="done">Done</string>
+    <string name="we_will_send_a_link_to_your_email_once_you_submit_it">We will send a link to your email to change your password once it is submitted</string>
+    <string name="reset">Reset</string>
+    <string name="cancel">Cancel</string>
+    <string name="enter_firstname">Enter first name</string>
+    <string name="enter_lastname">Enter last name</string>
+    <string name="to_complete">Enter the verification code sent to you here!!!</string>
+    <string name="enter_code_here">Enter code here</string>
+    <string name="verify">Verify</string>
+    <string name="about">About</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="cont">Continue</string>
+    <string name="don_t_have_an_account_yet_sign_up_now">Don\'t have an account yet? Sign up now</string>
+    <string name="all_users">All users</string>
+    <string name="home">Home</string>
+    <string name="settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
