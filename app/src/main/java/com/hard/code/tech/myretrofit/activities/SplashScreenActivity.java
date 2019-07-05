@@ -27,7 +27,6 @@ public class SplashScreenActivity extends AppCompatActivity {
         showSplash.start();
     }
 
-
     //An inner class that blocks the UI and causes threading
     private class ShowSplash extends Thread {
         @Override
